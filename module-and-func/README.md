@@ -1,7 +1,10 @@
 ### module ###
 - 每个erlang程序文件都包含一个模块(module).
+- 每个模块由一系列函数声明和属性(比如开头的`-export`)组成.
 - 程序的文件名必须与模块名同名，扩展名是`.erl`.
 - 语句以点`.`结尾.
+
+> 关于模块属性(attributes)参考官方文档：http://erlang.org/doc/reference_manual/modules.html#id78271
 ### 编译和运行 ###
 运行`erl`命令进入erlang shell，并运行以下命令编译并运行：
 ```

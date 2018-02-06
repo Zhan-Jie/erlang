@@ -1,7 +1,9 @@
 -module(test_record).
 -export([new_record/0, accessField/1, modifyField/1, check_person_type/1, pattern_matching/0]).
+
+-include("person_def.hrl").
 % 定义一个record类型
--record(person, {name = "", phone = [], address}).
+% -record(person, {name = "", phone = [], address}).
 
 % 创建record实例
 new_record() -> 
